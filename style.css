@@ -1,0 +1,163 @@
+/* Estilo geral */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	color: #222
+	margin: 0;
+	padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d60000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu de navegação */
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #d60000;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #d60000;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Imagens */
+img {
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* Listas */
+ul {
+    text-align: lerft;
+    display: inline-block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+
+table, th, td {
+    border: 2px solid #d60000;
+}
+
+th {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Formulário */
+form {
+    background-color: #f8f8f8;
+    border: 2px solid #d60000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d60000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000 ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Estilos para a página Sobre */
+main h2 {
+    color: #d60000;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+main h3 {
+    color: #000;
+    font-size: 1.4em;
+    margin-top: 25px;
+}
+
+main p {
+    color: #222;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px auto;
+    width: 80%;
+}
