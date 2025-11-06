@@ -1,6 +1,6 @@
 /* Estilo geral */
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Zalando Sans Expanded", sans-serif;
 	background-color: #fff;
 	color: #222;
 	margin: 0;
@@ -62,7 +62,11 @@ main h2 {
 
 main p {
     line-height: 1.6;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
 }
+
 
 /* Imagens */
 img {
