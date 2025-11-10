@@ -125,7 +125,7 @@ form {
 }
 
 input, textarea, button {
-    width: 100%;
+    width: 97%;
     padding: 10px;
     margin-top: 8px;
     margin-bottom: 15px;
@@ -183,3 +183,4 @@ main p {
 .escudo {
     width: 100px;
 }
+
