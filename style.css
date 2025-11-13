@@ -72,9 +72,17 @@ main p {
 /* Imagens */
 img {
     max-width: 600px;
+    width: 500px;
     display: block;
     border-radius: 10px;
     margin: 15px 0;
+    border: 10px solid #d60000;
+    transition: transform .3    s ease;
+
+}
+
+img:hover {
+    transform: scale(1.04);
 }
 
 figure {
